@@ -87,6 +87,10 @@ ul li a {
 }
 .Contant {
     margin-left: 11px;
+    font-size: 1.5rem;
+}
+#font-size{
+    font-size: 1.2rem;
 }
 #al {
     font-size: 3.6rem;
@@ -105,6 +109,18 @@ ul li a {
     height: clamp(282px,29vh,282px);
     width: clamp(190px,48vw,190px);
    margin-left: 1rem;
+}
+#headline-2 {
+ padding-left: 2rem;
+}
+#Ul-3 {
+    padding-left: 2rem;
+}
+#headline-3 {
+ padding-left: 2rem;
+}
+.Ul-4 {
+    padding-left: 2rem;
 }
 #Box_left-3 {
     height: clamp(247px,29vh,247px);
@@ -138,5 +154,5 @@ ul li a {
 }
 .Para_right {
     font-size: 1.7rem;
-    width: clamp(163px,42vw,163px);
+    width: clamp(187px,50vw,187px);
 }
