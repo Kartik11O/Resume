@@ -44,7 +44,6 @@
 
 /* // */
 #Ul-2 {
-  width: clamp(200px,80%,368px);
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -106,7 +105,6 @@
     font-weight: 100;
 }
 #Ul-3{
-  width: clamp(340px,80%,368px);
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -141,7 +139,6 @@
   font-weight: 100;
 }
 .Ul-4{
-  width: clamp(340px,80%,368px);
   display: flex;
   flex-direction: column;
   gap: 20px;

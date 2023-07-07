@@ -86,21 +86,39 @@ ul li a {
     width: clamp(190px,48vw,190px);
 }
 .Contant {
-    margin-left: 11px;
-    font-size: 1.5rem;
+    margin-left: 9px;
+   font-size: 1.5rem;
+    width: clamp(133px,65%,133px);
 }
 #font-size{
     font-size: 1.2rem;
 }
 #al {
-    font-size: 3.6rem;
-    width: 40px;
-    height: 40px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    line-height: 35px !important;
+    transition: 0.3s;
+    font-size: 2.8rem;
 }
 #al-edit {
-    font-size: 2.5rem;
-    width: 40px;
-    height: 40px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    line-height: 35px !important;
+    transition: 0.3s;
+    font-size: 2.2rem;
+}
+.Headlines {
+    padding-left: 2rem;
 }
 #Ul-2 {
     padding-left: 1rem;
