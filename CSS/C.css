@@ -26,7 +26,7 @@
 
 .Box_left {
   width: clamp(200px,30vw,464px);
-  height: clamp(220px,36vh,274px);
+  height: clamp(274px,36vh,274px);
   border: 2px solid rgb(0, 0, 0);
   color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
@@ -81,7 +81,7 @@
   line-height: 39px;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 1px;
-  background-color: black;
+  color: #fff;
 }
 
 
@@ -89,7 +89,7 @@
 /* Box_left-2 */
 #Box_left-2{
   width: clamp(200px,30vw,464px);
-  height: clamp(220px,49vh,464px);
+  height: clamp(372px,49vh,372px);
   border: 2px solid rgb(0, 0, 0);
   color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
@@ -124,7 +124,7 @@
 
 #Box_left-3{
   width: clamp(200px,30vw,464px);
-  height: clamp(220px,49vh,372px);
+  height: clamp(372px,49vh,372px);
   border: 2px solid rgb(0, 0, 0);
   color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
@@ -159,7 +159,7 @@
 /*  */
 #Box_right-1{
   width: clamp(200px,35vw,540px);
-  height: clamp(1000px,135vh,1020px);;
+  height: clamp(719px,95vh,719px);
   border: 2px solid rgb(0, 0, 0);
   color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
@@ -194,6 +194,6 @@
 }
 .Para_right{
   font-size: 1.3rem;
-  width: 29vw;
+  width: clamp(200px,29vw,433px);
   margin-top: 7px;
 }

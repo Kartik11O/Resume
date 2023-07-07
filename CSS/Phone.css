@@ -87,11 +87,11 @@ ul li a {
 }
 .Contant {
     margin-left: 9px;
-   font-size: 1.5rem;
+    font-size: 2.3vw;
     width: clamp(133px,65%,133px);
 }
 #font-size{
-    font-size: 1.2rem;
+    font-size: 2.2vw;
 }
 #al {
     color: #000000;
