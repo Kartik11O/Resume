@@ -1,0 +1,57 @@
+/* NavBar */
+#NavBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: clamp(200px, 19vw, 295px);
+    height: clamp(101px, 13vh, 101px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NavBar in-Side */
+#Nav-In {
+    width: clamp(200px,15vw,230px);
+    height: clamp(75px,10vh,75px);
+}
+
+/* For Center */
+#Icon-Ui {
+    padding: 0;
+}
+
+/* For Center */
+#Icon-Li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Social {
+    color: #000;
+    font-size: 2.1rem;
+    border-radius: 10rem;
+    text-decoration: none;
+    background-color: yellow;
+    width: 45px;
+    height: 45px;
+    line-height: 44px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.Social:hover {
+    color: #fff;
+}
+
+.Social:nth-child(1):hover {
+    background-color: #c9510c;
+}
+
+.Social:nth-child(2):hover {
+    background-color: #0a66c2;
+}
+
+.Social:nth-child(3):hover {
+    background-color: #E1306C;
+}

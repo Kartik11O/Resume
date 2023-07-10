@@ -1,0 +1,71 @@
+#Right-Headline{
+    font-family: var(--Headline);
+    color: var(--yellow);
+    font-size: 2rem;
+    margin: auto;
+    margin-left: 38.4px;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+/* Right-Side Box-1 */
+#Box-right-1{
+    width: clamp(300px,40vw,617px);
+    height: clamp(701px,93vh,701px);
+    border-bottom: 1px solid white;
+}
+
+/* Paragrap for Right-Side */
+.Para{
+    font-size: 1.3rem;
+    width: clamp(200px,29vw,433px);
+    margin-top: 7px;
+    font-family: var(--Headline);
+    color: #fff;
+}
+
+/* Ui-right */
+#Ui-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Box-right-2 QR */
+#Box-right-2{
+    width: clamp(300px,40vw,617px);
+    height: clamp(251px,33vh,251px);
+    gap: 20px;
+}
+#Image-right{
+    width: clamp(168px,11vw,168px);
+    height: clamp(173px,23vh,173px);
+    background-image: url(qr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 44px;
+    display: inline-block;
+}
+.Para-2{  
+    position: absolute;
+    display: inline-block;
+    width: clamp(200px,41%,251px);
+    font-family: var(--Headline);
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    margin-bottom: 1rem;
+    margin-left: 19px;
+}
+
+#Headline-Qr{
+    font-family: var(--Headline);
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+    color: var(--yellow);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}

@@ -1,0 +1,105 @@
+.Resume-Headline {
+    font-family: var(--Headline);
+    color: var(--yellow);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#Box-1 {
+    position: relative; 
+    width: clamp(200px, 30vw, 460px);
+    height: clamp(293px, 39vh, 293px);
+    /* border: 2px solid red; */
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#Box-Headline {
+    font-family: var(--Headline);
+    color: var(--yellow);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto;
+    margin-left: 38.4px;
+    margin-top: 1rem;
+}
+
+#B1-Ui {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* Maybe Li need to be fixed */
+.B1-Li {
+    display: flex;
+    /* width: clamp(260px,69%,288px); */
+}
+
+.B1-Icons {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #fff;
+    color: #000;
+}
+
+.B1-Headline {
+    margin: auto;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-family: var(--Headline);
+    letter-spacing: 1px;
+}
+
+/* Box-2 Starting */
+#Box-2 {
+    width: clamp(200px, 30vw, 460px);
+    height: clamp(387px,51vh,387px);
+    /* border: 2px solid blue; */
+}
+
+.Headlines-All {
+    font-family: var(--Headline);
+    color: var(--yellow);
+    font-size: 2rem;
+    margin: auto;
+    margin-left: 38.4px;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+ul {
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+
+.Box-Headline-All {
+    font-family: var(--Headline);
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+
+.span-All{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+/* Box-3 Starting */
+#Box-3{
+    width: clamp(200px, 30vw, 460px);
+    height: clamp(387px,51vh,387px);
+    /* border: 2px solid rgb(0, 255, 17); */
+}
+
+.span-All-2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}

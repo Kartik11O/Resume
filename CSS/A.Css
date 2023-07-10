@@ -1,0 +1,150 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+/* Starting of Main Container */
+#Main_Container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This will Hold the all ELM */
+#Holder {
+    position: relative;
+    width: clamp(300px, 89vw, 1370px);
+    height: clamp(651px, 86vh, 651px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid yellow;
+}
+
+/* This will Help to Scroll */
+#Screen-Container {
+    position: relative;
+    width: 100%;
+    height: 350vh;
+    border: 2px solid red;
+}
+
+/* Landing Page (1Con) */
+#Landing-Container {
+    position: relative;
+    width: 100%;
+    height: clamp(655px, 87vh, 655px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+#Headline-Landing {
+    font-size: 8rem;
+    color: var(--yellow);
+    font-family: var(--font);
+}
+
+/* Profile-Container (2Con)*/
+#Profile {
+    position: relative;
+    width: 100%;
+    height: clamp(376px, 50vh, 376px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(rer.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Profile-Container */
+#Profile-Container {
+    width: clamp(300px, 70vw, 1075px);
+    height: clamp(339px, 45vh, 339px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Image {
+    width: clamp(200px, 17vw, 261px);
+    height: clamp(200px, 35vh, 252px);
+    border-radius: 3rem 0rem 3rem 2rem;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: var(--profile);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#About-me {
+    width: clamp(200px, 63%, 511px);
+    height: clamp(200px, 35vh, 252px);
+    margin-left: 2rem;
+}
+
+#Headline-Name {
+    font-family: var(--font);
+    color: var(--yellow);
+    font-size: 1.8rem;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+#Headline-Work {
+    font-family: var(--font);
+    color: var(--yellow);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 0rem;
+    margin-bottom: 2px;
+}
+
+#About-Para {
+    color: var(--yellow);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 16px;
+}
+
+/* Now Resume Start */
+/* Section 0f Resume */
+#Resume {
+    position: relative;
+    width: 100%;
+    height: clamp(1205px, 160vh, 1205px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Holder of Resume and make every ELM in middle */
+#Resume-Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fixxx width */
+.Resume-Parts {
+    width: clamp(300px,44vw,675px);
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Resume-Parts:nth-child(2) {
+    border-left: 2px solid #fff;
+}
+

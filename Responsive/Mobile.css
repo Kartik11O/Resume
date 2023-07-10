@@ -1,0 +1,72 @@
+html{
+    font-size: 50%;
+}
+/* Set Screen to full */
+#Holder{
+    height: 100%;
+    width: 100%;
+}
+/* Make social icon smaller */
+.Social{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: yellow;
+    line-height: 35px !important;
+    transition: 0.3s;
+}
+
+/* Fix Profile Section Height */
+#Profile{
+    height: 67vh;
+}
+#Profile-Container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.B1-Icons{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    line-height: 30px !important;
+    transition: 0.3s;
+    font-size: 2.5rem;
+}
+
+#B1-Ui {
+    padding: 0;
+    margin-left: 36px;
+}
+
+#Box-1{
+    height: 217px;
+}
+#Box-2{
+    height: 206px;
+}
+#Box-3{
+    height: 206px;
+}
+#Box-right-1 {
+    height: 327px;
+}
+.B1-Headline {
+  margin-left: 8px;
+}
+#Resume {
+    width: 133vw;
+    overflow-x: scroll;
+}
+#Image-right {
+    /* display: inline-block; */
+    width: 37vw;
+    height: 21vh;
+}
