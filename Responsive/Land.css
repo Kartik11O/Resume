@@ -1,0 +1,99 @@
+@media all and (max-device-width: 967px) and (orientation: landscape) {
+
+    html {
+        font-size: 50%;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    /* Set Screen to full */
+    #Holder {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Make social icon smaller */
+    .Social {
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+        background-color: yellow;
+        line-height: 35px !important;
+        transition: 0.3s;
+    }
+
+    /* Fix Profile Section Height */
+    #Profile {
+        height: 371px;
+    }
+
+    #Profile-Container {
+        flex-wrap: wrap;
+        text-align: center;
+        width: clamp(300px, 56vw, 504px);
+    }
+
+    .B1-Icons {
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+        background-color: rgb(255, 255, 255);
+        line-height: 30px !important;
+        transition: 0.3s;
+        font-size: 2.5rem;
+    }
+
+    #B1-Ui {
+        padding: 0;
+        margin-left: 36px;
+    }
+
+    #Box-1 {
+        height: 217px;
+    }
+    #Box-2 {
+        height: 206px;
+    }
+    #Box-3 {
+        height: 206px;
+    }
+    #Box-right-1 {
+        height: 327px;
+    }
+    .B1-Headline {
+        margin-left: 8px;
+        color: #fff
+    }
+    /* Set the Height */
+    #Resume {
+        width: 100vw;
+        height: 641px;
+        overflow-x: scroll;
+    }
+
+    #Image-right {
+        /* display: inline-block; */
+        width: clamp(138px, 37vw, 138px);
+        height: clamp(140px, 21vh, 140px);
+    }
+    #Headline-Qr {
+        margin-left: 60px;
+    }
+    .Para-2 {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 1rem;
+        margin-left: 19px;
+        text-align: center;
+    }
+
+}

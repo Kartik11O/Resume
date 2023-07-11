@@ -60,13 +60,33 @@ html{
 }
 .B1-Headline {
   margin-left: 8px;
+  color: #fff
 }
 #Resume {
     width: 133vw;
+    height: 664px;
     overflow-x: scroll;
 }
 #Image-right {
     /* display: inline-block; */
-    width: 37vw;
-    height: 21vh;
+    width: clamp(138px,37vw,138px);
+    height: clamp(100px,21vh,140px);
 }
+#Headline-Qr {
+    margin-left: 60px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 13px;
+}
+
