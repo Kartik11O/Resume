@@ -1,4 +1,4 @@
-@media all and (max-device-width: 967px) and (orientation: landscape) {
+@media all and (max-width: 970px) and (min-width:650px) and (orientation: landscape) {
 
     html {
         font-size: 50%;
@@ -13,6 +13,10 @@
     #Holder {
         height: 100%;
         width: 100%;
+    }
+
+    #Landing-Container {
+        height: 97vh
     }
 
     /* Make social icon smaller */

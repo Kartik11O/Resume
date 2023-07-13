@@ -6,6 +6,11 @@ html{
     height: 100%;
     width: 100%;
 }
+
+#Landing-Container {
+    height: clamp(734px,87vh,734px);
+}
+
 /* Make social icon smaller */
 .Social{
     color: #000000;
@@ -90,3 +95,16 @@ html{
     border-radius: 13px;
 }
 
+.Para-2 {
+    position: absolute;
+    display: inline-block;
+    width: clamp(200px,41%,251px);
+    font-family: var(--Headline);
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    margin-bottom: 1rem;
+    margin-left: 19px;
+    text-align: inherit;
+}
