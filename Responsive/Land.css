@@ -99,5 +99,8 @@
         margin-left: 19px;
         text-align: center;
     }
-
+    #size-fix{
+        font-size: 16px;
+    }
+    
 }
