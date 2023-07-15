@@ -48,11 +48,12 @@ html{
 
 #B1-Ui {
     padding: 0;
-    margin-left: 36px;
+    margin-left: clamp(20px,36px,36px);
 }
 
 #Box-1{
     height: 217px;
+    width: clamp(198px,53vw,198px);
 }
 #Box-2{
     height: 206px;
