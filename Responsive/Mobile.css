@@ -108,6 +108,7 @@ html{
     margin-bottom: 1rem;
     margin-left: 19px;
     text-align: inherit;
+    color: #000 !important;
 }
 #size-fix{
     font-size: 16px;
